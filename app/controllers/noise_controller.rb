@@ -16,7 +16,7 @@ class NoiseController < ApplicationController
       @text_to_render = "matt.j.hansen@gmail.com"
     when "Phone"
       @text_to_render = "541-224-3842"
-    when "Full Name"
+    when "Name"
       @text_to_render = "Matthew J Hansen"
     when "Years"
       @text_to_render = 9
