@@ -28,6 +28,6 @@ class NoiseControllerTest < ActionController::TestCase
   test "should provide a default response when no params are passed" do
     get :index
     assert_response :success
-    assert_equal assigns(:text_to_render), "Default Response"
+    assert_equal assigns(:text_to_render), "You should hire me, I'm awesome!"
   end  
 end
