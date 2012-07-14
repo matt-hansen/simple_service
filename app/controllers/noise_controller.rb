@@ -1,7 +1,7 @@
 class NoiseController < ApplicationController
   
   def index
-    render :text => "Hello"
+    render :text => "OK"
   end
   
 end
