@@ -1,0 +1,2 @@
+class NoiseController < ApplicationController
+end
