@@ -24,9 +24,11 @@ class NoiseController < ApplicationController
       @text_to_render = "Bachelors of Business Administration with Emphasis in Computer Information Systems from Idaho State University"
     when "Position"
       @text_to_render = "Sr. Web Applications Developer"
+    when "Resume"
+      @text_to_render = "http://strong-meadow-2737.herokuapp.com/resume.html"
     end
 
-    @text_to_render ||= "Default Response"
+    @text_to_render ||= "You should hire me, I'm awesome!"
     render :text => @text_to_render
   end
 
