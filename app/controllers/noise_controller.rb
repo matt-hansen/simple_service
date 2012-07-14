@@ -21,8 +21,7 @@ class NoiseController < ApplicationController
     when "Years"
       @text_to_render = 9
     when "Degree"
-      @text_to_render = "Bachelors of Business Administration with Emphasis " .
-                        "in Computer Information Systems from Idaho State University"
+      @text_to_render = "Bachelors of Business Administration with Emphasis in Computer Information Systems from Idaho State University"
     when "Position"
       @text_to_render = "Sr. Web Applications Developer"
     end
